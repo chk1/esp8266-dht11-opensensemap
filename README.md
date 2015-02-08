@@ -16,7 +16,7 @@ ESP8266 PIN | device
 ----------- | -------
 GND         | GND
 GPIO2       | -
-GPIO0       | DHT11 data (2nd from left)
+GPIO0       | DHT11 data (2nd from left) & 3.3V VCC w/ 10kΩ resistor
 URXD        | Arduino 0 (RX), for programming
 UTXD        | Arduino 1 (TX), for programming
 CH_PD       | 3.3V VCC
