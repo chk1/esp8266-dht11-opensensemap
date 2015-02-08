@@ -19,7 +19,7 @@ GPIO2       | -
 GPIO0       | DHT11 data (2nd from left)
 URXD        | Arduino 0 (RX), for programming
 UTXD        | Arduino 1 (TX), for programming
-CH_PD       | GND
+CH_PD       | 3.3V VCC
 RST         | -
 VCC         | 3.3V VCC
 
