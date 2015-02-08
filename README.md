@@ -12,15 +12,16 @@ Connect the ESP8266 with the DHT11.
 
 Connect the Arduino to the ESP8266 for programming the device. The Arduino can be removed after programming the device and if you are using an external power supply or battery.
 
-ESP8266 | .
-GND | GND
-GPIO2 | -
-GPIO0 | DHT11 data (2nd from left)
-URXD | Arduino 0 (RX), for programming
-UTXD | Arduino 1 (TX), for programming
-CH_PD | GND
-RST | -
-VCC | 3.3V VCC
+ESP8266 PIN | device
+----------- | -------
+GND         | GND
+GPIO2       | -
+GPIO0       | DHT11 data (2nd from left)
+URXD        | Arduino 0 (RX), for programming
+UTXD        | Arduino 1 (TX), for programming
+CH_PD       | GND
+RST         | -
+VCC         | 3.3V VCC
 
 See also at [Adafruit: "Connecting to a DHTxx Sensor"](https://learn.adafruit.com/dht/connecting-to-a-dhtxx-sensor)
 
